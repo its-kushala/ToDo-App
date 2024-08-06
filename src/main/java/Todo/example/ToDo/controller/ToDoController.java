@@ -66,7 +66,7 @@ public class ToDoController {
 			return "redirct:/viewToDoList";
 		}
 		
-		redirectAttributrs.addFlashAttribute("message", "Edit Failure");
+		redirectAttributes.addFlashAttribute("message", "Edit Failure");
 		return "redirect:/editToDoItem/" + todo.getId();
 	}
 	
